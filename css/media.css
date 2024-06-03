@@ -1,0 +1,256 @@
+
+@media (max-width:567px){
+    .home_section .container {
+        height: 330px;
+        border-bottom-right-radius: 50px;
+    }
+    .home_section .container .home_contant h1 {
+        font-size: 22px;
+        line-height: 30px;
+        padding: 70px 0 0 30px;
+    }
+    .home_section .container .home_contant button {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .benerth_banner .benerth_flex{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .benerth_banner .box{
+        flex-direction: column;
+    }
+    .benerth_banner .box .contant {
+        margin:5px 0px;
+    }
+    .home_about_section .home_flex {
+        flex-direction: column;
+    }
+    .home_about_section .home_flex .about_section {
+        width: 100%;
+    }
+    .home_about_section .home_flex .image img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .home_about_section .projectFactsWrap .left {
+        margin-left: 110px;
+    }
+    .home_about_section .projectFactsWrap .flex .item h6 {
+        font-size: 14px;
+    }
+    .about_section {
+        padding: 0px 0;
+    }
+    .achievement_banner .box_flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+    .achievement_banner .box_flex .boxes .contant {
+        display: none;
+    }
+    .achievement_banner {
+        height: auto;
+        padding: 20px 0px 50px 0px;
+    }
+    .credentialsPartnerships .container .upper-text .heading{
+        margin: auto;
+    }
+    .credentialsPartnerships .container .upper-text .heading::after {
+        display: none;
+    }
+    .credentialsPartnerships .container .main-portion .image-girl {
+        display: none;
+    }
+    .credentialsPartnerships .container .main-portion .grid-boxes .upper-boxex {
+        flex-direction: column;
+    }
+    .credentialsPartnerships .container .main-portion .grid-boxes .lower-boxes .grid-images,
+    .credentialsPartnerships .container .main-portion .grid-boxes .upper-boxex .grid-images {
+        width: 100%;
+        background-color: transparent;
+        box-shadow: none;
+        border: 2px solid rgba(128, 128, 128, 0.2);
+    }
+    .credentialsPartnerships .container .main-portion .grid-boxes .gradinet {
+        display: none;
+    }
+    .blogs .conta .blog-inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .blogs .conta .blog-inner .blog-content {
+        width: 100%;
+        height: auto;
+    }
+    .our-client .container .big-gridcontainer {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-client .container .big-gridcontainer .img-cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-client .container .big-gridcontainer .img-cont img {
+        width: 200px;
+    }
+    .globle_client .heading::after {
+        top: 10px;
+        left: 170px;
+    }  
+    .sub-heading {
+        font-weight: 500;
+        padding-left: 75px;
+    } 
+    .our-client .container .upper-text .heading{
+        margin: auto;
+    }
+    .our-client .container .upper-text .heading::after {
+        display: none;
+    }
+    .globle_client h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .globle_client .underline {
+        display: none;
+    }
+    .globle_client .image_boxes .image_box .under2, .globle_client .image_boxes .image_box .under3, .globle_client .image_boxes .image_box .under4, .globle_client .image_boxes .image_box .under {
+        display: none;
+    }
+    .globle_client .image_boxes {
+       flex-direction: column;
+    }
+    .globle_client .image_boxes .image_box h2 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    .globle_client .image_boxes .image_box .icon {
+        margin-left: 250px;
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+    .globle_client p {
+        margin-bottom: 30px;
+    }
+    .globle_client .row .image_boxes .image_box .icon{
+        margin: auto;
+    }
+    .globle_client .row .heading{
+        margin: auto;
+    }
+    .globle_client .row .heading::after{
+        display: none;
+    }
+    .globle_client .explore {
+        margin: auto;
+        width: 40%;
+        margin-top: 10px;
+        margin-bottom: 50PX;
+    }
+    .about_section .text::after {
+        display: none;
+    }
+    .about_section h2 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .about_section .flex_box .boxes {
+        height: 280px;
+        margin-top: 40px;
+    }
+    .Portfolio_section .text::after {
+        display: none;
+    }
+    .Portfolio_section h2 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30PX;
+    }
+    .form .flex {
+       flex-direction: column;
+    }
+    .form .left {
+        width: 100%;
+        height: auto;
+        background: #fff;
+        padding: 20px;
+    }
+    .form .left button {
+        margin-top: 0px;
+        padding: 1em 2.2em;
+    }
+    .form .left .second-input,
+    .form .left .first-input {
+        flex-direction: column;
+        margin-top: 20px
+    }
+    .form .left .second-input input,
+    .form .left .first-input input {
+        width: 100%;
+        height: 43px;
+        margin-bottom: 0px;
+    }
+    .form .left .second-input input{
+        margin-bottom: 15px;
+    }
+    .form .right {
+        display: none;
+    }
+
+    .our_blog .text::after {
+        display: none;
+    }
+    .second-last {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-last .content {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .second-last .content .para,
+    .second-last .content .contect-num {
+        font-size: 12px;
+        height: auto;
+    }
+
+    .second-last .content img {
+        width: 30px;
+        height: 22px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+    .footer .footer-content .outer-input {
+        width:90%;
+    }
+    .footer .footer-content input {
+        width: 100%;
+        border: none;
+    }
+    .footer .footer-content .inner-input {
+        display: flex;
+        align-items: center;
+        padding: 2px 15px;
+    }
+    #top {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #C01F29;
+        position: fixed;
+        bottom: 30px;
+        left: 85%;
+        z-index: 999;
+    }
+    
+}
